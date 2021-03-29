@@ -18,11 +18,11 @@ public class DatabaseTest {
 
     @Test
     public void when_correctElementsArePassed_then_createDatabaseInstance() throws OperationNotSupportedException {
-        //arrange (подготовка) --> ^
+        //arrange --> ^
 
-        // act (дейтвие) --->
+        // act --->
 
-        // assert (потвърждение) --->
+        // assert --->
         assertEquals(ELEMENTS.length, database.getElements().length);
         assertArrayEquals(ELEMENTS, database.getElements());
     }
