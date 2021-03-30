@@ -18,7 +18,15 @@ public class DatabaseTest {
 
     @Test
     public void when_correctElementsArePassed_then_createDatabaseInstance() throws OperationNotSupportedException {
+<<<<<<< HEAD
     
+=======
+        //arrange --> ^
+
+        // act --->
+
+        // assert --->
+>>>>>>> 486617ec21b4cccfbd9591087d1c3b3c5e220a94
         assertEquals(ELEMENTS.length, database.getElements().length);
         assertArrayEquals(ELEMENTS, database.getElements());
     }
