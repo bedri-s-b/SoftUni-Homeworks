@@ -26,7 +26,7 @@ public class AlarmTest {
 
     @Test
     public void when_pressureHighThenHighPressureThreshold_then_alarmShouldBeOn(){
-        // mock again
+        // mock
         Mockito.when(this.sensor.popNextPressurePsiValue()).thenReturn(30.2);
         this.alarm.check();
         assertTrue(this.alarm.getAlarmOn());

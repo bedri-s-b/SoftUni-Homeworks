@@ -25,11 +25,7 @@ public class ExtendedDatabase {
 
     @Test
     public void when_correctElementsArePassed_then_createDatabaseInstance() throws OperationNotSupportedException {
-        //arrange (подготовка) --> ^
 
-        // act (дейтвие) --->
-
-        // assert (потвърждение) --->
         assertEquals(PEOPLE.length, database.getElements().length);
         assertArrayEquals(PEOPLE, database.getElements());
     }
