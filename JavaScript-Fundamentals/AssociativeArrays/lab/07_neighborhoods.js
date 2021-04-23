@@ -19,4 +19,3 @@ function solve(arr) {
             el[1].forEach(p => console.log(`--${p}`))
         });
 }
-
