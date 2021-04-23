@@ -15,8 +15,3 @@ function solve(arr) {
 
     Object.keys(meetings).forEach(m => console.log(`${m} -> ${meetings[m]}`))
 }
-
-solve(["Monday Peter",
-    "Wednesday Bill",
-    "Monday Tim",
-    "Friday Tim"]);
