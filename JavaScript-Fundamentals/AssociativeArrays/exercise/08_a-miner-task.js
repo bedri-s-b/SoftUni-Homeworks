@@ -21,12 +21,3 @@ function solve(arr) {
         .forEach(e => console.log(`${e[0]} -> ${e[1]}`))
 
 }
-
-solve([
-    'Gold',
-    '155',
-    'Silver',
-    '10',
-    'Copper',
-    '17'
-])

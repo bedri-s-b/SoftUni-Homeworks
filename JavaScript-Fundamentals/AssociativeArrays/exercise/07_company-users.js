@@ -19,12 +19,3 @@ function solve(arr) {
             e[1].forEach(id => console.log(`-- ${id}`))
         });
 }
-
-solve([
-    'SoftUni -> AA12345',
-    'SoftUni -> CC12344',
-    'Lenovo -> XX23456',
-    'SoftUni -> AA12345',
-    'Movement -> DD11111'
-]
-);

@@ -21,5 +21,3 @@ function occurences(arr) {
 
     console.log(result);
 }
-
-occurences('Java C# Php PHP Java PhP 3 C# 3 1 5 C#');

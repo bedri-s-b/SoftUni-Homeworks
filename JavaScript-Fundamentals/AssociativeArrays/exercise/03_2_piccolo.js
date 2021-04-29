@@ -21,8 +21,3 @@ function piccolo(allcars) {
         console.log('Parking Lot is Empty');
     }
 }
-
-piccolo(['IN, CA2844AA',
-    'IN, CA1234TA',
-    'OUT, CA2844AA',
-    'OUT, CA1234TA']);
